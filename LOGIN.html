@@ -1,0 +1,94 @@
+<html>
+<head>
+<style>
+
+body {
+  background: #76b852;
+ }
+
+input[type="text"],input[type="password"] {
+  font-size: 0.9em;
+  font-weight: 100;
+  width: 100%;
+  display: curved block;
+  border-radius:10px;
+  padding: 0.8em;
+  placeholder-color:white;
+  border: solid 1.5px rgba(255, 255, 255, 0.37);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #fff );
+  background-position: -800px 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+::placeholder {
+  color: #CCEEC0;
+}
+
+input[type="submit"] {
+  font-size: .9em;
+  color: #fff;
+  background: #76b852;
+  outline: none;
+  border: px solid white;
+  cursor: pointer;
+  padding: 0.9em;
+  -webkit-appearance: none;
+  width: 50%;
+  margin: 2em 0;
+  letter-spacing: 4px;
+}
+
+input[type="submit"]:hover {
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all;
+  transition: .5s all;
+  background: #8DC26F;
+}
+
+.main{
+  padding: 1em 0 1em;
+}
+
+.main1{
+  width: 35%;
+  margin: 3em auto;
+  background: rgba(0, 0, 0, 0.18);
+  background-size: cover;
+}
+.top {
+  padding: 3em;
+}
+
+</style>
+<title>login </title>
+</head>
+<body>
+<center>
+<br><br> 
+<br>
+        <form>
+		<div class="main">
+		<img src="login logo.png" width="10%">
+		<h1>Login Here</h1>
+		<div class="main1">
+		<div class="top">
+
+        <input type="text" class="text" name="User Name" placeholder="User Name" required></input><br><br><br>
+		
+        <input type="text" class="text"  name="Password" placeholder="Password" required></input><br>
+
+        <input type="submit" name="Button" value="Sign In" ></input>
+								
+		<br><a style="font-color:darkgreen" href="registration form.html">I don't have an account ?</a><br><br>
+
+
+        </form>
+</center>
+ </body>
+
+</html>
